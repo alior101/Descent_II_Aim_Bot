@@ -4,6 +4,11 @@
 
 This repo holds the files used to create a small AI assisted aiming bot for Descent II gamee
 
+Instructions:
+1. Install d2x-rebirth and xdotool (the game and the utility to locate the windowed game at a spcific screen location for python screen grabing function) 
+2. install pytorch mss and pyautogui
+3. run ./run.sh
+
 The training images are at https://app.roboflow.com/descent-aimhelperbot/descentii-small/3 - images were captured with a screen capture utility and uploaded for quick manual anotation on Roboflow.
 ![image](https://user-images.githubusercontent.com/3033580/139537647-fa658be8-9d09-4a81-b7fa-6d0fe349db05.png)
 
