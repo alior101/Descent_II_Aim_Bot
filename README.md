@@ -2,12 +2,18 @@
 
 ![image](https://user-images.githubusercontent.com/3033580/139537451-f6f2562d-baac-4ef6-9102-4ce7a089a0d4.png)
 
-This repo holds the files used to create a small AI assisted aiming bot for Descent II gamee
+This repo holds the files used to create a small AI assisted aiming bot for Descent II game.
+Descent II is an old (1996) FPS game for DOS. Since it has many fans (including myself) it has a linux port with full multiplayer functionality.
+The 6 DOF of the ship is a perfect opportunity to test a small AI object detection as a human enemies detection/location/aim/shoot assistance.
+It's not a perfect aim/shoot bot by not means.. The target was to show how to quickly build a simple AI bot... 
 
 Instructions:
 1. Install d2x-rebirth and xdotool (the game and the utility to locate the windowed game at a spcific screen location for python screen grabing function) 
 2. install pytorch mss and pyautogui
 3. run ./run.sh
+4. The python script captures images with enemies in a local folder some time after a detection is done (I used it to augement the training samples of ennemies at differnt scales and rotations and improve the detection quality) 
+
+
 
 The training images are at https://app.roboflow.com/descent-aimhelperbot/descentii-small/3 - images were captured with a screen capture utility and uploaded for quick manual anotation on Roboflow.
 ![image](https://user-images.githubusercontent.com/3033580/139537647-fa658be8-9d09-4a81-b7fa-6d0fe349db05.png)
