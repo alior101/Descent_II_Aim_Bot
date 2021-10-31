@@ -6,6 +6,7 @@ This repo holds the files used to create a small AI assisted aiming bot for Desc
 Descent II is an old (1996) FPS game for DOS. Since it has many fans (including myself) it has a linux port with full multiplayer functionality.
 The 6 DOF of the ship is a perfect opportunity to test a small AI object detection as a human enemies detection/location/aim/shoot assistance.
 It's not a perfect aim/shoot bot by not means.. The target was to show how to quickly build a simple AI bot... 
+The pytorch ipynb is based on https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb 
 
 Instructions:
 1. Install d2x-rebirth and xdotool (the game and the utility to locate the windowed game at a spcific screen location for python screen grabing function) 
