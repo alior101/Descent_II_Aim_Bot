@@ -2,10 +2,10 @@ import torch
 
 # Model
 #model = torch.hub.load('ultralytics/yolov5', 'best', pretrained=True)
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/lior/Downloads/best.pt')  # default
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='./best.pt')  # default
 
 # Images
-imgs = ['/home/lior/Downloads/d2.jpg']  # batch of images
+imgs = ['./d2.jpg']  # batch of images
 
 # Inference
 results = model(imgs)

@@ -13,7 +13,7 @@ from PIL import Image
 timeout = 0
 enemy_detected = False
 
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/lior/Downloads/best.pt')  # default
+model = torch.hub.load('ultralytics/yolov5', 'custom', path='./best.pt')  # default
 pyautogui.moveTo(320,240,0)
 
 with mss.mss() as sct:
