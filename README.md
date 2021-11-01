@@ -10,7 +10,7 @@ The pytorch ipynb is based on https://colab.research.google.com/github/ultralyti
 
 Instructions:
 1. Install d2x-rebirth and xdotool (the game and the utility to locate the windowed game at a spcific screen location for python screen grabing function) 
-2. install pytorch mss and pyautogui
+2. install pytorch mss pyautogui pandas torch torchvision torchaudio opencv-python tqdm matplotlib seaborn under *root* permission (since screen capture needs su)
 3. run ./run.sh
 4. The python script captures images with enemies in a local folder some time after a detection is done (I used it to augement the training samples of ennemies at differnt scales and rotations and improve the detection quality) 
 
@@ -29,3 +29,4 @@ Model achieved ~0.9 mAP with almost 1 R and P!
 
 Running it on actual game screen show a very good detection..  
 ![image](https://user-images.githubusercontent.com/3033580/139537569-e3609d52-d66b-4077-af34-d9ce59b58ef5.png)
+

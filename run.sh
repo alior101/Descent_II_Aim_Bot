@@ -5,4 +5,4 @@ D2R=`xdotool search --onlyvisible --name d2x`
 echo $D2R
 xdotool getwindowgeometry $D2R
 xdotool windowmove $D2R 0 0 
-sudo  /home/lior/anaconda3/bin/python3 main.py
+sudo  python3 main.py
